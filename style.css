@@ -1,0 +1,59 @@
+body {
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: rgba(29, 82, 205, 0.155);
+font-size: 14px;
+line-height: 1.8;
+letter-spacing: 1px;
+}
+h1 {
+ color:rgb(4, 4, 98); 
+ background-color: rgba(0, 160, 234, 0.749);
+ text-align: center;
+ box-shadow: 2px 2px 3px black
+}
+h2 { 
+    color:rgb(4, 4, 98);
+    background-color:rgb(65, 167, 236) ;
+    text-align: center;
+    box-shadow: 2px 2px 3px black
+
+}
+h3 {
+    color:rgb(4, 4, 98);
+    background-color: rgba(0, 225, 255, 0.592);
+    text-align: center;
+    box-shadow: 2px 2px 3px black
+}
+li {
+    color:rgb(4, 4, 98);
+    background-color: #FFF;
+}
+p { 
+    color:rgb(4, 4, 98);
+    background-color:#FFF;
+    text-align: center;
+}
+div {
+    text-align: left;
+}
+img{
+    display:block;
+    
+}
+#container{
+    margin-left:100px;
+    margin-right: 100px;
+    background-image:url(images/fond.jpeg);
+}
+#profile {
+    border-radius: 50%;
+    display:block;
+    margin: 0 auto ;
+}
+#bordure {
+border: 6px solid rgb(0, 0, 0);
+}
+#icons {
+    display: flex;
+    justify-content: center;
+}
